@@ -1,3 +1,5 @@
+; Exercise 1.29: Use Simpson's rule to perform integral
+
 #lang sicp
 
 (define (sum term next a b)

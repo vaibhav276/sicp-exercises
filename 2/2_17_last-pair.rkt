@@ -6,6 +6,7 @@
 
 #lang sicp
 
+; preliminaries
 (define (length l)
   (define (iter res m)
     (if (null? m)
@@ -16,6 +17,7 @@
   (iter 0 l)
 )
 
+; solution
 (define (last-pair l)
   (if (= 1 (length l))
       l
